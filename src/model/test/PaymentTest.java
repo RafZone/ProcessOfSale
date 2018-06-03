@@ -1,5 +1,6 @@
-package model;
-
+package model.test;
+import model.Item;
+import model.Payment;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
