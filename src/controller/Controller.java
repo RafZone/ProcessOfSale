@@ -11,6 +11,8 @@ public class Controller
 	private TotalRevenueView display;
 	private Payment payment;
 	
+	//This is the <code>Controller</code> constructor which create a connection to the database and then starts a sale
+	//@displayGrabber is the publisher responsible for updating the display and @display is the observer to be updated
 	public Controller()
 	{
 		itemsInStore = new ItemsInStore();

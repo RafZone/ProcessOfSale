@@ -5,6 +5,7 @@ public class Input
 	int id;
 	int quantity;
 	
+	//<code>Input</code> is a very simple object to get the user input from view interface
 	public Input()
 	{
 		id = 0;

@@ -8,6 +8,6 @@ public class Main
 	public static void main(String[] args) 
 	{
 		view = new View();
-		view.launch();
+		view.launch(); //using this method will create a controller
 	}
 }

@@ -16,6 +16,11 @@ public class SaleIterator
 	private View view;
 	private DisplayGrabber displayGrabber;
 	
+	
+	//This class imports the database from the Controller and takes the user input to compare it to the database.
+	//The Reason for having @sale is to import the customers list and be able to add items to it.
+	//@displayGrabber is the publisher responsible for updating the TotalReveueDisplay which prints the running total
+	
 	public SaleIterator(Sale sale)
 	{
 		this.itemsInStore = sale.getItemsInStore();
